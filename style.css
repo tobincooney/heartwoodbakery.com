@@ -64,8 +64,9 @@ p.footer {
 		margin-bottom: 800px;
 	}
 	div.img-container {
-		height: 380px;
+		height: 500px;
 		width: 100%;
 		overflow: hidden;
+		display: block;
 	}
 }
