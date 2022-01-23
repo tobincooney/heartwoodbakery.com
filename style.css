@@ -1,9 +1,10 @@
 body {
 	font-family: 'Bitter', serif;
-	font-size: 12pt;
+	font-size: 13pt;
 	background-color: white;
 	margin: 1%;
 	color: #282828;
+	padding-bottom: 60px;
 }
 h1 {
 	font-variant: small-caps;
@@ -31,25 +32,36 @@ div#container {
 	padding-right: 15%;
 }
 img.display {
-	border-width: 1px;
-	border-style: solid;
 	display: inline-block;
-	height: 300px;
-	border-radius: 4px;
+	margin: 2px;
+	border: 1px solid grey;
 }
 div.img-container {
 	width: 100%;
-	height: 302px;
 	display: inline-block;
 	overflow: wrap;
 }
-/* for the 'A branch of the Heartwood Collective' bit
+img.display#one { height: 260px; }
+div.img-container#one { height: 262px; }
+img.display#two { height: 330px; }
+div.img-container#two { height: 332px; }
+img#profile-image {
+	height: 150px;
+	float: left;
+	margin-right: 18px;
+	margin-left: 80px;
+	border: 1px solid grey;
+}
+div#profile-words {
+	width: 80%;
+}
 p.footer {
 	font-variant: small-caps;
 	font-style: italic;
 	color: grey;
-}*/
+}
 
+/* mobile */
 @media only screen and (max-device-width: 700px) {
 	body { font-size: 30pt; }
 	h1 { font-size: 400%; }
@@ -69,5 +81,13 @@ p.footer {
 		width: 100%;
 		overflow: hidden;
 		display: block;
+	}
+	div#profile-words { width: auto; }
+	img#profile-image {
+		height: auto;
+		width: 80%;
+		float: none;
+		margin-right: 0px;
+		margin-left: 0px;
 	}
 }
