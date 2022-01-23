@@ -27,6 +27,10 @@ a {
 a:hover {
 	color: #29becf;
 }
+div#container {
+	padding-left: 15%;
+	padding-right: 15%;
+}
 img.display {
 	border-width: 1px;
 	border-style: solid;
@@ -39,10 +43,6 @@ div.img-container {
 	height: 182px;
 	display: inline-block;
 }
-div#container {
-	padding-left: 15%;
-	padding-right: 15%;
-}
 /* for the 'A branch of the Heartwood Collective' bit
 p.footer {
 	font-variant: small-caps;
@@ -53,6 +53,10 @@ p.footer {
 @media only screen and (max-device-width: 700px) {
 	body { font-size: 30pt; }
 	hr { width: 80%; }
+	div#container {
+		padding-left: 8%;
+		padding-right: 8%;
+	}
 	img.display { height: 300px; }
 	div.img-container { height: 152px; }
 }
