@@ -43,3 +43,8 @@ div#container {
 	padding-left: 15%;
 	padding-right: 15%;
 }
+p.footer {
+	font-variant: small-caps;
+	font-style: italic;
+	color: grey;
+}
