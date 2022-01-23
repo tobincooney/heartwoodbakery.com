@@ -71,17 +71,20 @@ p.footer {
 		padding-right: 8%;
 	}
 	img.display {
-		height: auto;
 		width: 96%;
 		display: block;
 		margin-bottom: 800px;
 	}
+	img.display#one { height: auto; }
+	img.display#two { height: auto; }
 	div.img-container {
 		height: 600px;
 		width: 100%;
 		overflow: hidden;
 		display: block;
 	}
+	div.img-container#one { height: auto; }
+	div.img-container#two { height: auto; }
 	div#profile-words { width: auto; }
 	img#profile-image {
 		height: auto;
