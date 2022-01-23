@@ -83,8 +83,8 @@ p.footer {
 		overflow: hidden;
 		display: block;
 	}
-	div.img-container#one { height: auto; }
-	div.img-container#two { height: auto; }
+	div.img-container#one { height: 600px; }
+	div.img-container#two { height: 600px; }
 	div#profile-words { width: auto; }
 	img#profile-image {
 		height: auto;
