@@ -50,8 +50,9 @@ p.footer {
 	color: grey;
 }*/
 
-@media only screen and (max-device-width: 700px) {
+@media only screen and (max-device-width: 1024px) {
 	body { font-size: 30pt; }
+	h1 { font-size: 400%; }
 	hr { width: 80%; }
 	div#container {
 		padding-left: 8%;
