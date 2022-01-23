@@ -24,9 +24,8 @@ a {
 	color: #279dc2;
 	transition: color 0.1s;
 }
-a:hover {
-	color: #29becf;
-}
+a:hover { color: #29becf; }
+a:visited { color: #3e115c; }
 div#container {
 	padding-left: 15%;
 	padding-right: 15%;
@@ -42,6 +41,7 @@ div.img-container {
 	width: 100%;
 	height: 182px;
 	display: inline-block;
+	overflow: wrap;
 }
 /* for the 'A branch of the Heartwood Collective' bit
 p.footer {
@@ -57,6 +57,12 @@ p.footer {
 		padding-left: 8%;
 		padding-right: 8%;
 	}
-	img.display { height: 300px; }
-	div.img-container { height: 152px; }
+	img.display {
+		height: auto;
+		width: 90%;
+	}
+	div.img-container {
+		height: auto;
+		width: 90%;
+	}
 }
