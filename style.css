@@ -51,8 +51,8 @@ p.footer {
 }*/
 
 @media only screen and (max-device-width: 700px) {
-	h1 { font-size: 300%; }
+	body { font-size: 30pt; }
 	hr { width: 80%; }
-	img.display { height: 150px; }
+	img.display { height: 300px; }
 	div.img-container { height: 152px; }
 }
