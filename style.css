@@ -8,11 +8,11 @@ body {
 }
 img#logo {
 	width: 170px;
+	padding-top: 2%;
 }
 h1 {
 	font-variant: small-caps;
 	font-size: 500%;
-	padding-top: 2%;
 	width: 100%;
 	text-align: center;
 	margin: 0px;
@@ -69,7 +69,7 @@ p.footer {
 /* mobile */
 @media only screen and (max-device-width: 700px) {
 	body { font-size: 30pt; }
-	img#logo { width: 60%; }
+	img#logo { width: 30%; }
 	h1 { font-size: 400%; }
 	hr { width: 80%; }
 	div#container {
