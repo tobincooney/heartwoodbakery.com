@@ -69,7 +69,10 @@ p.footer {
 /* mobile */
 @media only screen and (max-device-width: 700px) {
 	body { font-size: 30pt; }
-	img#logo { width: 30%; }
+	img#logo {
+		width: 30%;
+		padding-top: 6%;
+	}
 	h1 { font-size: 400%; }
 	hr { width: 80%; }
 	div#container {
